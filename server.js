@@ -2,7 +2,7 @@ var express = require("express")
 var app = express()
 let port = process.env.port || 3000;
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri =  "mongodb+srv://DbUser:Saini@001@cluster0.bhjjlmz.mongodb.net/?retryWrites=true&w=majority";
+const uri =  "mongodb+srv://sachinynr2002:XyLL4TAN643dlKio@cluster0.kbklocx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 let collection;
 app.use(express.static(__dirname + '/public'));
 app.use(express.json());
